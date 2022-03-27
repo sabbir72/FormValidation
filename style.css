@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: rgb(167, 161, 161);
+    color: #fff;
+    
+}
+
+#item table{
+    margin: 0 auto;
+}
+
+#item table tr td{
+    text-align: left;
+}
+
+#item textarea{
+    padding: 5px;
+    border: none;
+     margin: 5px 0px;
+
+}
+#state{
+    padding: 5px;
+    border: none;
+    margin: 5px 0px;
+
+}
+#item input{
+    padding: 5px;
+    border: none;
+    margin: 5px 0px;
+}
+#item td{
+    color: #fff;
+    
+}
+
+input.btn {
+    width: 100%;
+    background-color: #ff9400;
+    padding: 8px;
+    border: none;
+}

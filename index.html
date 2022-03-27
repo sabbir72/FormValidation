@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form onsubmit="Fhandler()" name="reg-form" id="item" action="Login.html" method="get">
+       <table class="tab">
+           <tr>
+               <td>Name :</td>
+               <td>
+                   <input  name="FullName" type="text"  placeholder="Enter Your Name." >
+               </td>
+           </tr>
+           <tr>
+               <td>Email :</td>
+               <td>
+                   <input  name="Email"type="email"  placeholder="Enter Your Email." >
+               </td>
+           </tr>
+           <tr>
+               <td>Date Of Birth :</td>
+               <td>
+                   <input  name="Date"type="date" min="01-01-2000" >
+               </td>
+           </tr>
+           <tr>
+               <td>Phone :</td>
+                <td>
+                   <input  name="Phone"  type="phone" placeholder="Your Number">
+               </td>
+           </tr>
+           <tr>
+               <td>Gender :</td>
+               <td>
+                   <input  name="Gender"type="radio" value="male"> male
+                   <input  name="Gender"type="radio" value="female"> female
+                   <input  name="Gender"type="radio" value="Custom"> Custom
+               </td>
+           </tr>
+           <tr>
+               <td>State :</td>
+               <td>
+                   <select name="state" id="state">
+                       <option value="Tongi">Tongi</option>
+                       <option value="Bonani">Bonani</option>
+                       <option value="catkhil">catkhil</option>
+                   </select>
+               </td>
+               
+           </tr>
+           <tr>
+               <td>Subject :</td>
+               <td>
+                 
+                       <input type="checkbox" name="subject"  id="subject" value="CSE"> CSE
+                       <input type="checkbox" name="subject" id="subject" value="BBC"> BBC
+                       <input type="checkbox" name="subject" id="subject" value="EEE"> EEE
+                  
+               </td>
+               
+           </tr>
+            <tr>
+               <td>Textarea :</td>
+               <td>
+                   <textarea  name="textarea" placeholder="Your Textarea"></textarea>
+               </td>
+           </tr>           
+
+           <tr>
+               <td>Password :</td>
+               <td>
+                   <input name="Password" type="password"  placeholder="Enter Your Password.">
+               </td>
+           </tr>
+           <tr>
+               <td>Confirm Password :</td>
+               <td>
+                   <input name="ConfirmPassword" type="password"  placeholder="Enter Your Confirm Password." >
+               </td>
+           </tr>
+           <tr>
+                  <td colspan="2">
+                       <input class="btn" type="submit" name="submit" value="submit">
+                  </td>
+           </tr>
+       </table>
+    </form>
+    <h3 class="msg"></h3>
+
+    <script src="main.js"></script>
+</body>
+</html>
